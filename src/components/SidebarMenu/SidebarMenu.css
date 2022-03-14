@@ -1,0 +1,95 @@
+.sidebar {
+	width: 25vw;
+	min-width: 200px;
+	height: 100%;
+	min-height: 500px;
+	padding: 0 1.5vw 0 1.5vw;
+	background-color: #00303f;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.select-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 200px;
+	background-color: inherit;
+	font-size: 16px;
+}
+
+header {
+	background-color: inherit;
+	color: #e7d9ea;
+	font-size: larger;
+	text-align: center;
+	line-height: 2rem;
+}
+
+label {
+	color: #fff;
+	background-color: inherit;
+	font-size: 1.1rem;
+}
+
+.select {
+	height: 35px;
+	padding: 5px 7px;
+	line-height: 20px;
+	font-size: 18px;
+	width: 100%;
+	border: 2px solid green;
+	border-radius: 6px;
+	margin-top: 10px;
+}
+.select-box select:focus {
+	border: 2px solid green;
+}
+
+.slider-container {
+	height: 3rem;
+	width: 12rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	background-color: inherit;
+}
+.slider-container > input {
+	width: 100%;
+}
+
+.button {
+	border: none;
+	border-radius: 0.317rem;
+	background-color: #008891;
+	color: #fff;
+	
+	
+	cursor: pointer;
+}
+
+.button:hover {
+	opacity: 0.85;
+}
+
+.sort-btn{
+	font-size: 1rem;
+	width: 12rem;
+	height: 3rem;
+	font-weight: 700;
+	padding: 0.3rem 0rem;
+}
+
+.speed-buttons{
+	margin-top: 10px;
+	display:flex;
+	gap: 0.5rem;
+}
+.speed-button{
+	width: 2.5rem;
+	height: 2rem;
+	font-size: 1rem;
+}
