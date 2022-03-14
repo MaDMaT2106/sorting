@@ -114,7 +114,7 @@ const SidebarMenu = () => {
       <button
         className="button sort-btn"
         onClick={() => {
-          // arrayToSort.length < 2 && alert("Please, enter at list two values");
+          arrayToSort.length < 2 && alert("Please, enter at list two values");
           arrayToSort.length === 0 && alert("Enter array values!");
           choose();
         }}
